@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container{
+  background-color: #5014A3;
+  width: 600px;
+  height: 550px;
+  position: relative;
+}
+.div-Header{
+  background-color: black;
+  width: 600px;
+  height: 60px;
+}
+.div-Footer{
+  background-color: black;
+  width: 600px;
+  height: 60px;
+  position:absolute;
+  top:500px;
+}
+.div-Center {
+  background-color: #290D62;
+  width: 600px;
+  height: 110px;
+  position: absolute;
+  top: 180px;
+}
+app-root {
+  
+  width: 600px;
+  height: 80px;
+  position: absolute;
+  left:170px;
+  top: 125px;
+}
+span {
+  position: absolute;
+  top: 210px;
+  left: 260px;
+  color: #5014A3;
+  font-size: 45px;
+  font-weight: bold;
+}
+#cercle {
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+  color: black;
+  position: absolute;
+  left: 220px;
+  top: 170px;
+  border: 1px solid #D3D0BC;
+}

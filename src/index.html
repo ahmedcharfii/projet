@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  
+  <title>Projet</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+ 
+</head>
+<body>
+  <!--   préparation de background -->
+  <div class="container">
+    <div class="div-Header"></div>
+    <div class="div-Center"></div>
+    <div class="div-Footer"></div>
+    <div id="cercle"></div>
+
+    <!--    // Script pour donner un delai avant l'Éxecution de mon app -->
+    <script>
+      function waiting() { };
+      setTimeout(waiting, 3000);
+    </script>
+
+    <!-- mon app -->
+    <app-root></app-root>
+
+    <!-- une division réserver au decompteur -->
+    <div id="decompteur"></div>
+  </div>
+
+</body>
+</html>
+
+
+
